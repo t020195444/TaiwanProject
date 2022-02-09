@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #3b383c;
+}
+
+nav ul {
+  display: flex;
+  padding: 1rem;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+
+nav ul li a {
+  color: rgb(160, 157, 157);
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.5s ease;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.myPicture {
+  width: 28vh;
+  height: 30vh;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.headerTitle {
+  font-size: 2.5rem;
+}
+
+.headerText {
+  font-size: 1rem;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.container {
+  display: flex;
+}
+
+section.left {
+  flex: 4 1 550px;
+}
+
+section.image,
+section.imageright {
+  padding: 1.5rem;
+}
+section.image {
+  flex: 1 1 100px;
+}
+
+section.imageright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 4 1 250px;
+}
+
+section.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 250px;
+}
+
+section.left,
+section.right {
+  padding: 1.5rem;
+}
+
+section.right h4 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+section.right p {
+  margin: 1rem 0rem;
+}
+.active {
+  color: white;
+}
+
+h1.redcenter {
+  text-align: center;
+  color: red;
+}
+
+div.two {
+  display: flex;
+  margin: 2rem;
+}
+
+div.two p {
+  padding: 1rem;
+}
+
+#curve_chart {
+  width: 100%;
+  height: 80%;
+}
+
+@media screen and (max-width: 650px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #curve_chart {
+    width: 100%;
+    height: 30%;
+  }
+}

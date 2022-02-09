@@ -1,0 +1,8 @@
+/*設定字體*/
+@font-face {
+  font-family: "myfont"; /*自行設定名稱*/
+  src: url(./清松手寫體1.ttf);
+}
+* {
+  font-family: "myfont";
+}
